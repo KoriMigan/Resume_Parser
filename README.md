@@ -11,13 +11,13 @@ This project is a resume parser whoch extracts the contact information such as t
 * Provide error handling mechanisms for parsing failures.
 * Test the parser with a diverse set of sample resumes.
 
-### Installation
+## Installation
 
 To run the resume parser, ensure you have Python installed. Clone this repository and install the required dependencies using the following command:
 
 `pip install -r requirements.txt`
 
-#### Usage
+## Usage
 
 1. Create a 'sample_resumes' directory and move into it by running commands below:
 
@@ -29,7 +29,7 @@ To run the resume parser, ensure you have Python installed. Clone this repositor
    `python app.py`
 3. The parsed data will be saved to a CSV file named 'Contact_information.csv' in the project directory.
 
-#### Project Structure
+## Project Structure
 
 * 'app.py': Main script for parsing the resumes and saving the contact information to CSV.
 * '.gitignore': File that contains sensitive information extracted from the sample_resumes file after extraction not tracked.
@@ -37,15 +37,15 @@ To run the resume parser, ensure you have Python installed. Clone this repositor
 * 'README.md': Documentation file providing instructions and information about the project.
 * 'LICENSE.md': Documentation containing MIT license for project.
 
-#### Dependencies
+## Dependencies
 
 * 'pdfplumber': Library for extracting text from PDF files.
 * 'python-docx': Library for extracting text from DOCX files.
 
-#### Contributing
+## Contributing
 
 Contributions are welcome! If you ahve suggestions, feature requests or bug reports, please open an issue or submit a pull request.
 
-#### License
+## License
 
 This project is licensed under the MIT License.
