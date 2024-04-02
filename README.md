@@ -31,20 +31,20 @@ To run the resume parser, ensure you have Python installed. Clone this repositor
 
 ## Project Structure
 
-* 'app.py': Main script for parsing the resumes and saving the contact information to CSV.
-* '.gitignore': File that contains sensitive information extracted from the sample_resumes file after extraction not tracked.
-* 'requirements.txt': File listing the required Python dependencies for the project.
-* 'README.md': Documentation file providing instructions and information about the project.
-* 'LICENSE.md': Documentation containing MIT license for project.
+* '**app.py**': Main script for parsing the resumes and saving the contact information to CSV.
+* '**.gitignore**': File that contains sensitive information extracted from the sample_resumes file after extraction not tracked.
+* '**requirements.txt**': File listing the required Python dependencies for the project.
+* '**README.md**': Documentation file providing instructions and information about the project.
+* '**LICENSE.md**': Documentation containing MIT license for project.
 
 ## Dependencies
 
-* 'pdfplumber': Library for extracting text from PDF files.
-* 'python-docx': Library for extracting text from DOCX files.
+* '**pdfplumber**': Library for extracting text from PDF files.
+* '**python-docx**': Library for extracting text from DOCX files.
 
 ## Contributing
 
-Contributions are welcome! If you ahve suggestions, feature requests or bug reports, please open an issue or submit a pull request.
+Contributions are welcome! If you have suggestions, feature requests or bug reports, please open an issue or submit a pull request.
 
 ## License
 
