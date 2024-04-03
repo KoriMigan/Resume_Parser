@@ -1,6 +1,6 @@
 # Resume Parser
 
-This project is a resume parser whoch extracts the contact information such as the candidates names, phone numbers and their email addresses from their resumes whether it be in PDF, text or Word docs format. The extracted data is then saved as a CSV file for easy access and analysis.
+This project is a resume parser which extracts the contact information such as the candidates names, phone numbers and their email addresses from their resumes whether it be in PDF, text or Word docs format. The extracted data is then saved as a CSV file for easy access and analysis.
 
 ## Features
 
