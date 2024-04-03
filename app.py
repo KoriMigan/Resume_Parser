@@ -43,14 +43,12 @@ def extract_contact_info(text):
 
 def save_to_csv(data):
     headers = ['Candidate Name', 'Phone Number', 'Email Address']
-    if not os.path.isfile('Contact_information.csv'):
-        with open('Contact_information.csv', 'w', newline='') as file:
-            writer = csv.writer(file)
-            writer.writerow(headers)
+    file_exists = os.path.isfile('Contact_information.csv')
     with open('Contact_information.csv', 'a', newline='') as file:
         writer = csv.writer(file)
+        if not file_exists or os.path.getsize('Contact_information.csv') == 0:
+            writer.writerow(headers)
         writer.writerow(data)
-
 
 
 def parse_resume(file):
